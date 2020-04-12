@@ -1,0 +1,166 @@
+/*
+  styles.css
+
+  modified: 2019-12-22
+
+  styleguide: airbnb https://github.com/airbnb/css
+
+*/
+
+/* default settings */
+
+body {
+  font-family: 'Gotu', sans-serif;
+  color: #636363;
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* display font */
+
+h2,
+figcaption {
+  font-family: "Lora", serif;
+}
+
+
+
+figure {
+
+  text-align: center;
+  font-size: medium;
+  width: 100%;
+  font-family: 'Gotu', sans-serif;
+
+}
+
+/* make everything a border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* header */
+.header {
+  background-color: #f3f3f3;
+  height: 7em;
+  padding: 1.5em;
+}
+
+img.logo {
+  max-width: 100%;
+  width: 4rem;
+  float: left;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  float: right;
+  margin: 0;
+  padding-right: 10vw;
+}
+
+@media screen and (min-width: 24rem) {
+  .page-title {
+    font-size: 3rem;
+  }
+}
+
+/* hero */
+
+.hero {
+  padding: 4em;
+  max-width: 100%;
+  background: linear-gradient(to bottom, #003399 0%, #66ccff 100%);
+  color: white;
+}
+
+img.my-picture {
+  display: block;
+  margin: 0 auto 2em;
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.profile-title {
+  color: #f3f3f3;
+  font-weight: 700;
+  text-align: center;
+}
+
+.my-name {
+  font-size: 1.9rem;
+  margin: 0;
+  text-transform: full-size-kana;
+  letter-spacing: 7px;
+}
+
+.my-location {
+  font-size: 1.5rem;
+  margin: 0;
+  text-transform: full-size-kana;
+  letter-spacing: 3px;
+}
+
+/* about-me */
+
+.about-me
+.gallary
+.quotes{
+  padding: 2.5em;
+}
+
+
+
+.content {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 4px solid #f3f3f3;
+  padding-left: 3rem;
+}
+
+.iama {
+  max-width: 100%;
+  color: #1a569b;
+  font-size: 1.25rem;
+  font-family: "Lora", serif;
+  font-weight: 700;
+}
+
+.my-info {
+  max-width: 100%;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0px auto 3em;
+}
+
+.my-info:last-of-type {
+  margin: 0px;
+}
+
+/* quotes */
+
+.quotes div {
+ max-width: 35rem;
+ margin:0 auto;
+
+}
+.quotes p {
+ max-width: 35rem;
+ margin:0 auto;
+
+}
+
+
+
+
+
+
+
+/* Always end with an empty line */
